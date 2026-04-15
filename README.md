@@ -17,7 +17,7 @@ This project demonstrates a small security monitoring homelab built with Wazuh i
 - **Monitored Endpoint:** Windows 10 virtual machine with Wazuh agent installed
 
 ## Architecture Diagram
-![Wazuh Homelab Architecture](diagrams/wazuh-homelab-architecture.png)
+![Wazuh Homelab Architecture](images/HomeLab Infrastructure.png)
 
 ## Architecture Overview
 The homelab is hosted on a Windows 11 machine running Oracle VirtualBox. Inside the virtualized environment, an Ubuntu virtual machine hosts the Wazuh stack through Docker, including the Wazuh Manager, Indexer, and Dashboard. A separate Windows 10 virtual machine acts as the monitored endpoint and runs the Wazuh agent, which forwards security-related events to the Wazuh server for monitoring and analysis.

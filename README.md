@@ -16,7 +16,7 @@ The homelab was developed in two main versions:
 | Version | Focus | Status |
 |---|---|---|
 | [V1 - Wazuh Endpoint Monitoring](v1/) | Wazuh deployment, Windows endpoint agent, basic alert review | Completed |
-| [V2 - IDS and Web Attack Monitoring](v2/) | Suricata IDS, DVWA, network monitoring, attack simulation | Completed / Documentation in progress |
+| [V2 - IDS and Web Attack Monitoring](v2/) | Suricata IDS, DVWA, network monitoring, attack simulation | Completed, documentation in progress |
 
 ## Architecture Overview
 
@@ -28,17 +28,25 @@ The homelab was developed in two main versions:
 
 > Detailed architecture diagrams and explanations are available in each version folder.
 
-## Tools and Technologies
-
+## Tools and Technologies:
 - Wazuh
 - Docker
 - Oracle VirtualBox
 - Ubuntu Server
-- Windows endpoint
+- Windows 10 endpoint
 - Suricata IDS
 - DVWA
 - Kali Linux
-- GitHub
+
+## Detection Scenarios
+
+The lab includes several controlled security testing scenarios, including:
+
+- Nmap scan detection
+- Nikto web scan detection
+- Suricata alert forwarding into Wazuh
+- SSH failed-login and brute-force detection
+- Windows endpoint monitoring through the Wazuh agent
 
 ## Repository Structure
 

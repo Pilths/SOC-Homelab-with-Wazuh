@@ -21,7 +21,7 @@ The homelab was developed in two main versions:
 ## Architecture Overview
 
 <p align="center">
-  <img src="v2/images/v2-architecture.png"
+  <img src="v2/images/v2_architecture.png"
        alt="SOC Homelab V2 Architecture"
        width="700">
 </p>
